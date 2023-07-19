@@ -1,0 +1,16 @@
+class Filme:
+    def __init__ (self, nome, ano, duracao):
+        self.nome = nome
+        self.ano= ano 
+        self.duracao= duracao
+vigadores = Filme("vingadores- Guerra Infinita", 2018, 160)
+print(vigadores.nome, vigadores.ano, vigadores.duracao)
+
+class Serie:
+    def __init__ (self, nome, ano, temporadas):
+        self.nome = nome
+        self.ano= ano 
+        self.temporadas= temporadas
+
+suits = Serie("Suits", 2016, 10)
+print(suits.nome , suits.ano , suits.temporadas)        
